@@ -1,0 +1,32 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: scanex-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/scanex
+    username: scanex
+    password: scanex_pw
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+
+integrations:
+  etherscan:
+    base-url: https://api.etherscan.io
+    api-key: ${ETHERSCAN_API_KEY:}
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+
+
+
