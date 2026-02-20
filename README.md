@@ -66,8 +66,9 @@ Example response:
     "timestamp": "2026-02-13T05:12:23Z"
   }
 ]
+```
 
-⚙️ Running Locally
+### ⚙️ Running Locally
 
 1️⃣ Start PostgreSQL (Docker recommended)
 - docker compose up -d
@@ -85,7 +86,7 @@ SPRING_DATASOURCE_PASSWORD=postgres
 3️⃣ Run the Application
 ./mvnw spring-boot:run
 
-🧠 What This Project Demonstrates
+### 🧠 What This Project Demonstrates
 	•	REST API development
 	•	External API integration
 	•	Data transformation & normalization
@@ -95,7 +96,7 @@ SPRING_DATASOURCE_PASSWORD=postgres
 
 ⸻
 
-📍 Roadmap
+### 📍 Roadmap
 	•	Risk scoring engine
 	•	Watchlist system
 	•	Automated sync jobs
@@ -104,7 +105,7 @@ SPRING_DATASOURCE_PASSWORD=postgres
 
 ⸻
 
-👨‍💻 Author
+### 👨‍💻 Author
 
 Johnny Telles
 Backend Developer | Java | Spring Boot
